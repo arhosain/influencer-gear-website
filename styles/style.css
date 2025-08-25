@@ -1,0 +1,91 @@
+/* font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* // <weight>: Use a value from 300 to 800
+// <uniquifier>: Use a unique and descriptive class name */
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* cimmon styles  */
+.display-flex{
+  display: flex;
+}
+
+.brand-title{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav{
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-list{
+  list-style: none;
+  font-size: 16px;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+  
+}
+.nav-lists{
+  gap: 20px;  
+}
+
+.banner{
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner-title{
+  font-size:52px ;
+  font-weight: 750;
+  margin-bottom: 16px;
+}
+.banner-description{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 24px;
+
+}
+.btn-primary{
+  color: white;
+  background-color: rgb(222, 0, 111);
+  border: none;
+  border-radius: 40px;
+  padding: 10px 24px ;
+
+
+}
+.banner-image >img {
+  background-image: url("images/Circle design.svg");
+}
+
+/* logo section  */
+.logo-container{
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  justify-content: center;
+  gap: 60px;
+  box-shadow: 0px 0px 10px  rgb(236, 236, 236);
+  align-items: center;
+}
+
+.logo{
+  
+}
